@@ -4,7 +4,7 @@ This project creates a distributed light-sensing system using multiple ESP8266 m
 
 ---
 
-## 📡 System Overview
+## System Overview
 
 - **ESP8266** reads light intensity and broadcasts it via UDP.
 - **Raspberry Pi** listens for packets, identifies the master device, and updates:
@@ -14,23 +14,23 @@ This project creates a distributed light-sensing system using multiple ESP8266 m
 
 ---
 
-## 🧱 Components
+## Components
 
-### 🔌 Hardware
+### Hardware
 - ESP8266 (e.g., NodeMCU) with photocell sensor
 - Raspberry Pi (any version with GPIO + SPI)
 - MAX7219 8x8 LED Matrix
 - 3x GPIO LEDs
 - Tactile Button
 
-### 📦 Software
+### Software
 - Python 3 (for Raspberry Pi server)
 - Node.js (for dashboard, optional)
 - Arduino sketch for ESP8266
 
 ---
 
-## 🔁 Data Flow
+## Data Flow
 
 1. ESP8266 reads photocell value and broadcasts via UDP
 2. Raspberry Pi listens for packets and:
@@ -42,6 +42,6 @@ This project creates a distributed light-sensing system using multiple ESP8266 m
 
 ---
 
-## 📊 System Flowchart
+## System Flowchart
 
 ![System Flowchart](Flowchart.png)
