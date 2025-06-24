@@ -1,4 +1,4 @@
-# Light Sensor Swarm (ESP8266 + Raspberry Pi + MAX7219)
+# Light Sensor Swarm (ESP8266 + Raspberry Pi)
 This project creates a distributed light-sensing system using multiple ESP8266 modules and a Raspberry Pi. The system determines a "Master" node based on the highest light reading and visualizes this data on an LED matrix and a web dashboard.
 
 ---
