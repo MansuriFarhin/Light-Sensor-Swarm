@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Activity and Sensor Data Graphs</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Visual Enhancements */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 28px;
+            color: #333;
+        }
+
+        .graph-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap; /* Allows wrapping on smaller screens */
+            padding: 20px;
+        }
+
+        canvas {
+            flex: 1;
+            max-width: 100%;
+            height: 400px;
+            background-color: #f0f8ff; /* Pastel blue background */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-container {
+            text-align: center;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        #logFilesDropdown {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            width: 200px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .reset-button-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .reset-button {
+            padding: 12px 25px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .reset-button:hover {
+            background-color: #ff4500;
+        }
+
+        .reset-button:focus {
+            outline: none;
+        }
+
+        @media (max-width: 768px) {
+            .graph-container {
+                flex-direction: column; /* Stack the graphs vertically on smaller screens */
+                gap: 15px;
+            }
+
+            .reset-button {
+                width: 100%; /* Make the reset button full width on mobile */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Device Activity and Sensor Data Graphs</h1> <!-- Updated title -->
+    <div class="dropdown-container">
+        <label for="logFilesDropdown">Select Log File:</label>
+        <select id="logFilesDropdown">
+            <option value="">Select a log file</option>
+        </select>
+    </div>
+
+    <div class="graph-container">
+        <canvas id="photocellGraph"></canvas>
+        <canvas id="masterGraph"></canvas>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+
+        let photocellChart = null;
+        let masterChart = null;
+        let realTimeDataActive = true;
+
+        socket.on('connect', () => {
+            socket.emit('getLogFiles');
+        });
+
+        socket.on('logFiles', (logFiles) => {
+            const dropdown = document.getElementById('logFilesDropdown');
+            logFiles.forEach(file => {
+                const option = document.createElement('option');
+                option.value = file;
+                option.textContent = file;
+                dropdown.appendChild(option);
+            });
+        });
+
+        document.getElementById('logFilesDropdown').addEventListener('change', (event) => {
+            const selectedFile = event.target.value;
+            if (selectedFile) {
+                realTimeDataActive = false;
+                socket.emit('getLogFileData', selectedFile);
+                resetCharts(true); // Reset for log file data
+            } else {
+                realTimeDataActive = true;
+                socket.emit('getRealTimeData');
+                resetCharts(false); // Reset for real-time data
+            }
+        });
+
+        socket.on('updateGraphsFromFile', (data) => {
+            updateGraphs(data);
+        });
+
+        socket.on('updateGraphs', (data) => {
+            if (realTimeDataActive) {
+                updateGraphs(data);
+            }
+        });
+
+        function generateRandomColor() {
+            const r = Math.floor(Math.random() * 256);
+            const g = Math.floor(Math.random() * 256);
+            const b = Math.floor(Math.random() * 256);
+            return `rgba(${r}, ${g}, ${b}, 0.6)`; // Returns random color with 0.6 opacity
+        }
+
+        function updateGraphs(data) {
+            if (!photocellChart) {
+                const photocellCtx = document.getElementById('photocellGraph').getContext('2d');
+                const photocellData = data.photocellGraph.data[0];
+                const photocellValues = photocellData.y.map(item => item.photocell_value);
+                const ips = photocellData.y.map(item => item.ip);
+
+                const colors = ips.map(ip => {
+                    const hash = Array.from(ip).reduce((acc, char) => acc + char.charCodeAt(0), 0);
+                    const r = (hash % 256);
+                    const g = (hash + 100) % 256;
+                    const b = (hash + 200) % 256;
+                    return `rgb(${r},${g},${b})`;
+                });
+
+                const borderColors = [];
+                for (let i = 0; i < photocellValues.length - 1; i++) {
+                    borderColors.push(colors[i]);
+                }
+
+                photocellChart = new Chart(photocellCtx, {
+                    type: 'line',
+                    data: {
+                        labels: photocellData.x,
+                        datasets: [{
+                            label: photocellData.label || 'Photocell Data',
+                            data: photocellValues,
+                            borderColor: 'navy', /* Updated to Navy Blue */
+                            backgroundColor: 'rgba(173, 216, 230, 0.2)', /* Pastel blue fill */
+                            fill: true,
+                            borderWidth: 2,
+                            lineTension: 0.4
+                        }]
+                    },
+                    options: data.photocellGraph.options
+                });
+            } else {
+                const photocellData = data.photocellGraph.data[0];
+                const photocellValues = photocellData.y.map(item => item.photocell_value);
+                const ips = photocellData.y.map(item => item.ip);
+                photocellChart.data.labels.push(photocellData.x[photocellData.x.length - 1]);
+                photocellChart.data.datasets[0].data.push(photocellValues[photocellValues.length - 1]);
+
+                const lastIp = ips[photocellValues.length - 1];
+                const hash = Array.from(lastIp).reduce((acc, char) => acc + char.charCodeAt(0), 0);
+                const r = (hash % 256);
+                const g = (hash + 100) % 256;
+                const b = (hash + 200) % 256;
+                const newColor = `rgb(${r},${g},${b})`;
+                photocellChart.data.datasets[0].borderColor.push(newColor);
+                photocellChart.update();
+            }
+
+            if (!masterChart) {
+                const masterCtx = document.getElementById('masterGraph').getContext('2d');
+                const masterLabels = data.masterGraph.data.labels;
+
+                // Generate random colors for each bar
+                const masterColors = masterLabels.map(() => generateRandomColor());
+
+                masterChart = new Chart(masterCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: masterLabels,
+                        datasets: [{
+                            label: 'Master Active Time',
+                            data: Object.values(data.masterGraph.data.datasets[0].data),
+                            backgroundColor: masterColors, // Apply random colors for bars
+                            borderColor: masterColors.map(color => color.replace('0.6', '1')), // Slightly darker border
+                            borderWidth: 1
+                        }]
+                    },
+                    options: data.masterGraph.options
+                });
+            } else {
+                const masterLabels = data.masterGraph.data.labels;
+                masterChart.data.labels = masterLabels;
+                masterChart.data.datasets[0].data = Object.values(data.masterGraph.data.datasets[0].data);
+                masterChart.update();
+            }
+        }
+
+        // Function to reset the charts
+        function resetCharts(isLogFile) {
+            if (photocellChart) {
+                photocellChart.destroy(); // Destroy the old chart instance
+                photocellChart = null; // Reset the reference
+            }
+
+            if (masterChart) {
+                masterChart.destroy(); // Destroy the old chart instance
+                masterChart = null; // Reset the reference
+            }
+
+            // Re-initialize charts based on the data type (log or real-time)
+            if (isLogFile) {
+                photocellChart = null;
+                masterChart = null;
+            }
+        }
+    </script>
+</body>
+
+</html>

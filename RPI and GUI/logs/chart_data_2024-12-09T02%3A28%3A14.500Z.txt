@@ -1,0 +1,1870 @@
+{
+  "timestamp": "2024-12-09T02:28:14.501Z",
+  "photocellData": [
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 272
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 644
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 258
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 656
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 276
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 254
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 258
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 258
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 264
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 259
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 265
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 264
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 246
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 259
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 247
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 257
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 246
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 255
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 248
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 248
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 247
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 248
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 247
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 629
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 224
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 231
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 219
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 663
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 206
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 625
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 231
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 661
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 234
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 632
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 274
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 673
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 286
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 640
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 272
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 675
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 285
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 254
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 242
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 255
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 625
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 230
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 667
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 218
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 209
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 210
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 222
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 210
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 240
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 210
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 211
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 229
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 212
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 210
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 220
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 220
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 210
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 222
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 223
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 212
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 645
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 222
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 670
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 240
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 650
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 259
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 667
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 655
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 276
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 675
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 276
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 636
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 629
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 259
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 648
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 657
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 646
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 224
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 634
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 235
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 681
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 254
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 628
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 270
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 276
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 274
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 640
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 253
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 264
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 634
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 655
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 280
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 672
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 649
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 621
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 225
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 221
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 228
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 228
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 230
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 225
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 244
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 211
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 224
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 224
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 238
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 238
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 234
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 226
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 229
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 220
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 220
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 221
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 238
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 230
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 232
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 232
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 233
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 665
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 233
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 216
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 645
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 220
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 655
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 645
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 234
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 265
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 655
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 271
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 655
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 282
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 655
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 257
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 642
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 261
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 260
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 261
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 260
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 279
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 262
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 268
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 250
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 249
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 268
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 262
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 266
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 262
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 245
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 261
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 255
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 252
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 252
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 252
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 626
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 255
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 673
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 231
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 642
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 233
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 673
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 231
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 643
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 248
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 658
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 280
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 654
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 264
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 657
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 228
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 200
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 205
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 206
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 648
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 182
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 202
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 198
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 205
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 205
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 207
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 190
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 201
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 672
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 184
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 642
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 663
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 663
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 686
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 566
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 216
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 666
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 639
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 612
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 416
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 355
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 379
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 292
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 246
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 222
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 300
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 214
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 324
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 226
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 303
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 261
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 327
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 278
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 278
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 222
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 258
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 229
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 600
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 658
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 256
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 672
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 271
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 625
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 279
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 670
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 250
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 615
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 238
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 180
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 196
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 204
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 197
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 629
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 206
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 648
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 245
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 637
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 253
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 655
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 248
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 646
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 252
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 252
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 261
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 247
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 248
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 249
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 259
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 255
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 636
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 249
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 237
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 654
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 200
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 588
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 194
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 658
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 205
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 211
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 208
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 666
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 219
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 221
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 666
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 217
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 634
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 247
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 629
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 650
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 668
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 673
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 677
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 669
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 652
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 630
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 637
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 643
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 258
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 658
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 267
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 641
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 277
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 662
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 256
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 643
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 655
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 223
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 637
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 206
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 641
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 678
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 221
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 668
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 632
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 258
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 667
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 271
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 266
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 639
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 658
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 641
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 249
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 655
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 237
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 633
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 206
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 622
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 200
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 218
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 636
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 248
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 661
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 267
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 626
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 273
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 661
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 264
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 631
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 284
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 620
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 665
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 258
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 233
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 621
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 245
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 212
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 622
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 204
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 663
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 207
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 628
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 207
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 662
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 220
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 213
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 217
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 217
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 204
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 199
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 196
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 195
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 658
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 198
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 226
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 230
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 229
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 214
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 213
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 208
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 205
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 632
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 210
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 662
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 236
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 241
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 622
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 253
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 667
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 248
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 240
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 257
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 240
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 232
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 243
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 242
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 653
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 224
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 640
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 254
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 631
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 630
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 640
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 260
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 665
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 679
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 233
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 626
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 208
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 629
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 220
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 625
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 216
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 234
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 656
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 255
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 621
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 262
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 663
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 280
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 625
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 269
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 661
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 274
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 274
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 276
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 278
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 648
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 271
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 252
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 259
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 246
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 260
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 862
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 229
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 857
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 217
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 833
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 664
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 212
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 613
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 207
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 621
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 646
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 225
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 657
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 234
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 646
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 248
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 101
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 656
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 176
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 641
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 166
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 648
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 160
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 637
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 243
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 656
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 282
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 625
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 305
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 649
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 292
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 628
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 701
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 658
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 259
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 645
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 258
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 642
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 269
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 273
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 290
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 630
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 206
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 660
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 194
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 802
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 785
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 240
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 665
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 785
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 825
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 830
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 606
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 558
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 540
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 566
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 545
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 549
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 278
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 553
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 267
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 543
+    },
+    {
+      "ip": "192.168.137.108",
+      "photocell_value": 217
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 654
+    },
+    {
+      "ip": "192.168.137.141",
+      "photocell_value": 654
+    },
+    {
+      "ip": "192.168.137.203",
+      "photocell_value": 521
+    }
+  ],
+  "masterData": {
+    "192.168.137.108": 84.18845701217651,
+    "192.168.137.141": 51.53338074684143,
+    "192.168.137.203": 4.884840965270996
+  }
+}
