@@ -20,7 +20,7 @@ This project creates a distributed light-sensing system using multiple ESP8266 m
 
 ### Software
 - Python 3 (for Raspberry Pi server)
-- Node.js (for dashboard, optional)
+- Node.js (for dashboard)
 - Arduino IDE for ESP8266
 ---
 ## Data Flow
