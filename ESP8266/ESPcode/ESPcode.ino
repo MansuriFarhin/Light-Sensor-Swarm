@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>    //Library for UDP packets
 
-char ssid[] = "farhin3495"; 
-char pass[] = "Khadijah2021";
+char ssid[] = "SSID"; 
+char pass[] = "PASSWORD";
 
 const unsigned int localPort = 2910; 
 WiFiUDP udp;  
